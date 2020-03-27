@@ -11,7 +11,11 @@
            "libtesseract.4.so"
            "libtesseract.3.so" 
            "libtesseract.so"))
-  (t (:default "libtesseract")))
+  (t (:default 
+       "libtesseract-5"
+       "libtesseract-4"
+       "libtesseract-3"
+       "libtesseract")))
 
 (cffi:use-foreign-library tesseract)
 
