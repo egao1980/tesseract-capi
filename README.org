@@ -1,0 +1,38 @@
+* Tesseract-Capi  - Tesseract C API wrapper
+This system provides SWIG generated C API wrappers for Tesseract versions 3.05.02, 4.1.1, and 5.0.0.
+
+** Usage
+#+begin_src lisp 
+CL-USER> (ql:quickload :tesseract-capi)
+To load "tesseract-capi":
+  Load 1 ASDF system:
+    tesseract-capi
+; Loading "tesseract-capi"
+...
+(:TESSERACT-CAPI)
+CL-USER> (tesseract-capi:tessversion)
+"5.0.0-alpha-647-g4a00"
+#+end_src
+
+** Installation
+Preferred way of installing tesseract-capi is by using Ultralisp.org distribution.
+
+#+begin_src lisp
+;; install Ultralisp if you haven't done it yet
+(ql-dist:install-dist "http://dist.ultralisp.org/"
+                      :prompt nil)
+
+;; install the wrapper code
+(ql:quickload :tesseract-capi)
+#+end_src
+** Author
+
++ Nikolai Matiushev
+
+** Copyright
+
+Copyright (c) 2020 Nikolai Matiushev
+
+** License
+
+Licensed under the MIT License.
