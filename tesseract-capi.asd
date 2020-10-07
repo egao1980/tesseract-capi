@@ -7,10 +7,10 @@
   :components ((:module "src"
                 :components
                 ((:file "version")
-                 (:file "main")
                  (:file "capi3")
                  (:file "capi4")
                  (:file "capi5")
-                 (:file "library"))))
+                 (:file "library")
+                 (:file "main"))))
   :description "Tesseract C API wrapper"
   :in-order-to ((test-op (test-op "tesseract-capi/tests"))))

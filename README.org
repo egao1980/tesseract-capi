@@ -24,6 +24,20 @@ Preferred way of installing tesseract-capi is by using Ultralisp.org distributio
 
 ;; install the wrapper code
 (ql:quickload :tesseract-capi)
+
+(let ((tesseract-capi:*tessdata-directory* "path/to/tessdata"))
+           (tesseract-capi:image-to-text "tests/data/fox.png"))
+
+"This is a lot of 12 point text to test the
+ocr code and see if it works on all types
+of fle format
+
+The quick brown dog jumped over the
+lazy fox. The quick brown dog jumped
+over the lazy fox. The quick brown dog
+jumped over the lazy fox. The quick
+brown dog jumped over the lazy fox
+"
 #+end_src
 ** Author
 
