@@ -1,5 +1,6 @@
 * Tesseract-Capi  - Tesseract C API wrapper
-This system provides SWIG generated C API wrappers for Tesseract versions 3.05.02, 4.1.1, and 5.0.0.
+This system provides SWIG generated C API wrappers for Tesseract versions 3.05.02, 4.1.1, and 5.0.0. 
+Using https://github.com/egao1980/swig/tree/revive-cffi as SWIG dropped CFFI support a while ago.
 
 ** Usage
 #+begin_src lisp 
