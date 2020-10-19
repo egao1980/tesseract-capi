@@ -44,10 +44,14 @@ brown dog jumped over the lazy fox
 
 + Nikolai Matiushev
 
+** Credits
+
++ Inspired by and uses parts of code from https://github.com/GOFAI/cl-tesseract
+
 ** Copyright
 
-Copyright (c) 2020 Nikolai Matiushev
-
+2020 Nikolai Matiushev
+2015 Edward Geist (egeist@stanford.edu)
 ** License
 
 Licensed under the MIT License.
